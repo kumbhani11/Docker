@@ -36,12 +36,14 @@ create network. network is bridge between mongo and mongo-express
 
 create container
 	```docker run -d -p 27017:27017  -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=password --name mongodb --net mongo-network mongo```
-	659e600001d331d9f28987d890f432dd36266d7a0a74a7cf6c719c3d96d3855d
+	659e600001d331d9f28987d890f432dd36266d7a0a74a7cf6c719c3d96d3855d```
 
 	```docker run -d -p 8081:8081 -e ME_CONFIG_MONGODB_ADMINUSERNAME=admin -e ME_CONFIG_MONGODB_ADMINPASSWORD=password --net mongo-network --name mongo-express -e ME_CONFIG_MONGODB_SERVER=mongodb  mongo-express```
 	28a9159d2f5ef3b50d7388bbf1f5fe67df3bfa839c515c77b885a5c82cf6efbf
   
-  running this command yit will return some unique id. it means service is running successfully. you can check running service in Docker Desktop Application.
+  running this command yit will return some unique id. it means service is running successfully.
+  
+  You can check running service in Docker Desktop Application.
   
   Thank you
   
