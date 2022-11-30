@@ -46,7 +46,7 @@ create container
 
 28a9159d2f5ef3b50d7388bbf1f5fe67df3bfa839c515c77b885a5c82cf6efbf
   
-running this command yit will return some unique id. it means service is running successfully.
+running this command it will return some unique id. it means service is running successfully.
 
 You can check running service in Docker Desktop Application.
 
