@@ -15,7 +15,7 @@ now download file <code>docker_composer.yml</code> and store in under created fo
 
 now run <code>docker_composer.yml</code> file from cmd to connect with database
 
-<code>D:/docker_project>docker-compose -f mongo.yml up</code>
+<code>D:/docker_project>docker-compose -f docker_composer.yml up</code>
 
 Now you can check in Docker Desktop Application running Container.  
 
